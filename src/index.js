@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import add from "./List";
+import "./index.css"
+// import "./SlotM"
+ import App from "./App";
 
 
 ReactDOM.render(
   <React.Fragment>
-  
-  <h1> "Enter both Number" {add(40,15)} </h1>
+  <div>
+   <App/>
+  </div>
   </React.Fragment>,
   document.getElementById("root")
 
