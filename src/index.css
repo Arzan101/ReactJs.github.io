@@ -19,4 +19,16 @@ h1{
   background-color: white;
   border-radius: 15px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+ margin-right: 15px;
+}
+.button1{
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  border-radius: 15px;
 }
