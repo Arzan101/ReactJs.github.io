@@ -11,10 +11,11 @@ const App=()=> {
     sTime(cnewTime);
 
     }
+    setInterval(UpdateTime,1000);
    return (
       <div>
          <h1>{cTime}</h1>
-         <button className="button1" onClick={UpdateTime}>Get Time</button>
+         
       </div>
    )
 }
