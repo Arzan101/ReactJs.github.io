@@ -1,0 +1,85 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  .s{
+    background-image: url(assests/tom1.png);
+  }
+  .r{
+    background-image: url(assests/tom2.png);
+  }
+  .g{
+    background-image: url(assests/tom3.png);
+  }
+  .m{
+    background-image: url(assests/tom4.png);
+  }
+  .p{
+    background-image: url(assests/kick.png);
+  }
+  .d{
+    background-image: url(assests/snare.png);
+  }
+  .n{
+    background-image: url(assests/crash.png);
+  }
+
+
+  
+  button {
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    padding: 40px;
+    margin-right: 10px;
+    border: 10px solid #404B69;
+    border-radius: 12px;
+    margin-top: 8%;
+    padding: 67px;
+    color: #404B69;
+    font-size: 3rem;
+    font-weight: 800;
+    text-shadow: 0,5px,8px,0 white;
+    height: 170px;
+    text-shadow: 0 5px black;
+    margin-bottom: 5%;
+    outline: none;
+    background-color: white;
+  
+  }
+  
+  body {
+    background-color: #393E46;
+    text-align: center;
+    align-items: center;
+  }
+  .pressed{
+    box-shadow:0 5px 9px 0 #DBEDF3;
+    opacity: 0.4;
+  }
+  h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 6rem;
+    color: #4ECCA3;
+  }
+  
+  p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  img {
+    width: 80%;
+  }
+  
+  footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  
+  }
